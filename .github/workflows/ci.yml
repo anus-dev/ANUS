@@ -24,6 +24,10 @@ jobs:
 
       - run: npm run lint:ci
 
+      - run: npm run check:public
+
       - run: npm run typecheck
 
       - run: npm run test:ci
+
+      - run: npm run test:agent

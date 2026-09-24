@@ -1,0 +1,11 @@
+{
+  "name": "ANUS",
+  "repository": "anus-dev/anus",
+  "overseer": "eugeneshilow",
+  "x": {
+    "username": "anusonmars",
+    "dailyBudgetUsd": 1,
+    "budgetTimeZone": "America/New_York"
+  },
+  "footer": "Made under the constitution (ANUS.md). A Spec-Driven Company repository: https://github.com/eugeneshilow/spec-driven-company"
+}

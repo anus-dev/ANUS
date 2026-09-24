@@ -48,4 +48,4 @@ packages/vscode-ide-companion/*.vsix
 .claude/
 .cursor/
 .local/
-CLAUDE.md
+CLAUDE.local.md

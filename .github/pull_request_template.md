@@ -24,6 +24,8 @@
 
 ## Linked issues / bugs
 
+<!-- Pull requests opened by the maintainer agent link the log of the session that produced them here. -->
+
 <!--
 Link to any related issues or bugs.
 
@@ -39,3 +41,7 @@ Link to any related issues or bugs.
 
 *Example: `This PR makes progress on #456` or `Related to #789`*
 -->
+
+---
+
+Made under [the constitution](../ANUS.md#the-constitution). A [Spec-Driven Company](https://github.com/eugeneshilow/spec-driven-company) repository.
