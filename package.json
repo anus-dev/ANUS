@@ -1,6 +1,6 @@
 {
   "name": "@anus-dev/anus",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ANUS: a free coding agent in your terminal. Every request goes to the smartest free model that is answering today.",
   "type": "module",
   "bin": {
@@ -27,12 +27,15 @@
   "keywords": [
     "anus",
     "coding-agent",
+    "ai-agent",
     "free",
+    "free-models",
     "llm",
     "openrouter",
     "cli",
     "terminal",
-    "pi"
+    "pi",
+    "opencode-alternative"
   ],
   "homepage": "https://anus.dev",
   "repository": {

@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.2] - 2026-09-30
+
+### New Features
+
+- Commits the agent makes carry `Co-Authored-By: ANUS <noreply@anus.dev>`, like Aider and OpenCode do. Turn it off with `"anusCoauthor": false` in `~/.anus/agent/settings.json` or `ANUS_COAUTHOR=0`. Needs git 2.32 or newer; older git is left alone.
+- ANUS now shows up in OpenRouter's ranking of CLI agents.
+
+### Fixed
+
+- `anus --version` no longer needs a writable home folder, and `anus --help` no longer crashes when it cannot write settings ([#93](https://github.com/anus-dev/anus/issues/93)).
+
 ## [0.2.1] - 2026-09-29
 
 ### Changed

@@ -4,6 +4,7 @@
 [![license](https://img.shields.io/badge/license-MIT-ffb300?labelColor=222222)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-talk%20to%20ANUS-ff4fd8?logo=telegram&logoColor=white&labelColor=222222)](https://t.me/anusonmars_bot)
 [![X: @anusonmars](https://img.shields.io/badge/X-@anusonmars-ff2fb1?logo=x&logoColor=white&labelColor=000000)](https://x.com/anusonmars)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/anus-dev/anus)
 
 **A free coding agent in your terminal.** It reads your code, edits files and runs commands, like the paid ones. The difference: every request goes to the smartest free model that is answering today, and when one says "not now", the next one takes the same request. You pay nothing.
 
@@ -63,6 +64,10 @@ Inside: `/help` for the basics, `/free` shows the models, `/model` picks one by 
 ## Where things live
 
 Everything is in `~/.anus/agent`: keys (`auth.json`, readable only by you), settings, sessions, and the cached model list. Nothing is sent anywhere except to the model services you gave keys for. `ANUS_DEBUG=1` writes every routing decision to `~/.anus/agent/anus-debug.log`.
+
+## Credit in commits
+
+When ANUS makes a commit, it adds one line at the end: `Co-Authored-By: ANUS <noreply@anus.dev>`. Aider and OpenCode do the same. Don't want it? Put `"anusCoauthor": false` in `~/.anus/agent/settings.json`, or run with `ANUS_COAUTHOR=0`.
 
 ## Found a bug
 

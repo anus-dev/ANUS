@@ -25,6 +25,7 @@ import {
   workingLine,
 } from '../lib/look.mjs';
 import { PROVIDERS, PROVIDER_IDS } from '../lib/providers.mjs';
+import { coauthorEnabled, withTrailer } from '../lib/coauthor.mjs';
 import { estimateTokens, keyOf, midStreamError, plan, restFor } from '../lib/route.mjs';
 
 const ROOT = process.env.ANUS_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -263,8 +264,19 @@ export default function anus(pi) {
 
   // OpenRouter credits requests to the app named in these headers (its public
   // app rankings), and some free models only serve named coding agents.
+  // The category puts ANUS into OpenRouter's cli-agent ranking.
   pi.registerProvider('openrouter', {
-    headers: { 'HTTP-Referer': 'https://anus.dev', 'X-Title': 'ANUS' },
+    headers: { 'HTTP-Referer': 'https://anus.dev', 'X-Title': 'ANUS', 'X-OpenRouter-Title': 'ANUS', 'X-OpenRouter-Categories': 'cli-agent' },
+  });
+
+  // Credit in commits (lib/coauthor.mjs): the trailer goes into every
+  // `git commit` the agent runs, unless the person turned it off.
+  const credit = coauthorEnabled();
+  pi.on('tool_call', async (event) => {
+    if (credit && event.toolName === 'bash' && typeof event.input?.command === 'string') {
+      event.input.command = withTrailer(event.input.command);
+    }
+    return undefined;
   });
 
   pi.registerProvider('anus', {

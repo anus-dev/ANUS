@@ -1,0 +1,14 @@
+# ANUS
+
+> A free coding agent in your terminal. It reads your code, edits files and runs commands. Every request goes to the smartest free model that is answering today; when one says "not now", the next one takes the same request.
+
+- Install: `npm install -g @anus-dev/anus`, then run `anus`. Or: `curl -fsSL https://anus.dev/install | sh`. Needs Node.js 22.19+.
+- Free keys: ANUS asks for at least one free key (OpenRouter, Google Gemini, Groq, Cerebras or Mistral). No card. Keys stay on your machine.
+- `anus setup` adds or changes keys. `/free` shows which free models are awake.
+- Built on the pi coding agent engine (MIT). License: MIT.
+
+## Docs
+
+- [README](https://github.com/anus-dev/anus/blob/main/README.md): install, first run, how "free" works, commands, where files live
+- [Changelog](https://github.com/anus-dev/anus/blob/main/CHANGELOG.md)
+- [npm package](https://www.npmjs.com/package/@anus-dev/anus)
