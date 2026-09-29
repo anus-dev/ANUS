@@ -7,9 +7,9 @@
 
 **A free coding agent in your terminal.** It reads your code, edits files and runs commands, like the paid ones. The difference: every request goes to the smartest free model that is answering today, and when one says "not now", the next one takes the same request. You pay nothing.
 
-[![ANUS: a free model writes an ASCII rocket to Mars](https://raw.githubusercontent.com/anus-dev/anus/main/docs/assets/anus-launch.gif)](https://github.com/anus-dev/anus/raw/main/docs/assets/anus-launch.mp4)
+[![ANUS: a free model writes an ASCII rocket to Mars](https://raw.githubusercontent.com/anus-dev/anus/main/docs/assets/anus-launch.gif)](https://x.com/anusonmars/status/2105039913343172947)
 
-[Watch the launch video with sound (22 s)](https://github.com/anus-dev/anus/raw/main/docs/assets/anus-launch.mp4)
+[Watch it with sound on X (22 s)](https://x.com/anusonmars/status/2105039913343172947) · [download the video](https://github.com/anus-dev/anus/raw/main/docs/assets/anus-launch.mp4)
 
 ```sh
 npm install -g @anus-dev/anus
