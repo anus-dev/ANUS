@@ -1,0 +1,114 @@
+{
+  "updated": "2026-09-29",
+  "about": "Free models ANUS routes between, best first. iq: Artificial Analysis index; ping: answered a \"hi\" in the last hours (ok, flaky, down).",
+  "models": [
+    {
+      "provider": "google",
+      "id": "gemini-flash-latest"
+    },
+    {
+      "provider": "cerebras",
+      "id": "qwen-3.8-27b",
+      "iq": 26.1
+    },
+    {
+      "provider": "groq",
+      "id": "qwen/qwen3.8-27b",
+      "iq": 26.1
+    },
+    {
+      "provider": "openrouter",
+      "id": "qwen/qwen3.8-27b:free",
+      "iq": 26.1,
+      "ping": "flaky"
+    },
+    {
+      "provider": "mistral",
+      "id": "devstral-latest"
+    },
+    {
+      "provider": "openrouter",
+      "id": "thinkingmachines/inkling:free",
+      "iq": 24,
+      "ping": "down"
+    },
+    {
+      "provider": "openrouter",
+      "id": "thinkingmachines/inkling-small:free",
+      "iq": 25.3,
+      "ping": "down"
+    },
+    {
+      "provider": "openrouter",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "iq": 20.4,
+      "ping": "ok"
+    },
+    {
+      "provider": "mistral",
+      "id": "mistral-medium-latest"
+    },
+    {
+      "provider": "cerebras",
+      "id": "gpt-oss-120b"
+    },
+    {
+      "provider": "groq",
+      "id": "openai/gpt-oss-120b"
+    },
+    {
+      "provider": "google",
+      "id": "gemma-4-31b-it",
+      "iq": 22.7
+    },
+    {
+      "provider": "openrouter",
+      "id": "google/gemma-4-31b-it:free",
+      "iq": 22.7,
+      "ping": "flaky"
+    },
+    {
+      "provider": "openrouter",
+      "id": "cohere/north-mini-code:free",
+      "iq": 19.6,
+      "ping": "ok"
+    },
+    {
+      "provider": "openrouter",
+      "id": "poolside/laguna-s-2.1:free",
+      "ping": "flaky"
+    },
+    {
+      "provider": "openrouter",
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "iq": 18.1,
+      "ping": "ok"
+    },
+    {
+      "provider": "openrouter",
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "iq": 16.3,
+      "ping": "ok"
+    },
+    {
+      "provider": "openrouter",
+      "id": "dots-studio/dots-3-note-preview:free",
+      "ping": "ok"
+    },
+    {
+      "provider": "openrouter",
+      "id": "poolside/laguna-xs-2.1:free",
+      "ping": "flaky"
+    },
+    {
+      "provider": "openrouter",
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "ping": "flaky"
+    },
+    {
+      "provider": "openrouter",
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "ping": "flaky"
+    }
+  ]
+}

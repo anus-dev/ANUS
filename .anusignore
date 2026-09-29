@@ -1,7 +1,0 @@
-# ANUS ignore file
-# This should be recognized by the new system
-
-node_modules/
-*.log
-.git/
-test-ignore-file.txt
