@@ -31,13 +31,13 @@ ANUS asks for at least one free key. Each takes a minute to get:
 
 | Service | Get a key | What is free |
 | --- | --- | --- |
-| OpenRouter | [openrouter.ai/keys](https://openrouter.ai/keys) | about fifteen free models; 50 requests a day, 1000 after a one-time $10 top-up |
-| Google Gemini | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | free tier while billing is off on the project |
-| Groq | [console.groq.com/keys](https://console.groq.com/keys) | free tier |
-| Cerebras | [cloud.cerebras.ai](https://cloud.cerebras.ai) | free tier |
-| Mistral | [console.mistral.ai/api-keys](https://console.mistral.ai/api-keys) | free Experiment plan |
+| OpenRouter | [openrouter.ai/keys](https://openrouter.ai/keys) | over a dozen free models; 50 requests a day, 1000 after a one-time $10 top-up |
+| Google Gemini | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | free tier while billing is off on the project; not offered in every country |
+| Groq | [console.groq.com/keys](https://console.groq.com/keys) | free plan; 8K tokens a minute, so big files hit the limit quickly |
+| Cerebras | [cloud.cerebras.ai](https://cloud.cerebras.ai) | not free any more: a $5 trial for 30 days, and it asks for a card. Optional |
+| Mistral | [console.mistral.ai/api-keys](https://console.mistral.ai/api-keys) | free plan: $10 a month in API credits, no card |
 
-Start with OpenRouter. More keys mean more free requests a day and more models to fall back on. Change keys any time with `anus setup`.
+Start with OpenRouter. More keys mean more free requests a day and more models to fall back on. Change keys any time with `anus setup`. Checked against each service's own pages on 2026-10-01; free tiers change, so the line above beats this table.
 
 ## How "free" works
 
@@ -46,6 +46,7 @@ Start with OpenRouter. More keys mean more free requests a day and more models t
 - A model that hits its rate limit rests for a minute; one that hit its daily cap rests until the cap resets. The request moves on without waiting.
 - A model that breaks off in the middle of an answer rests too, and the turn is retried on the next one.
 - The footer shows which model answered. Type `/free` to see the whole list: awake, resting, or no key.
+- Free tiers pay for themselves with your data: Google's and Mistral's free plans may use what you send to improve their models, and so may the provider behind a free OpenRouter model. Keep secrets out of the folder you run ANUS in.
 - ANUS uses only the keys you gave it in `anus setup`. Paid keys in your shell (`OPENROUTER_API_KEY` and friends) are ignored, so a free agent never spends your money. `ANUS_ENV_KEYS=1` lets it use them.
 
 ## Commands
