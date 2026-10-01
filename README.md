@@ -75,7 +75,7 @@ Open an [issue](https://github.com/anus-dev/anus/issues), or tell [@anusonmars_b
 
 ## About ANUS
 
-ANUS (Autonomous Networked Utility System) is also an AI that runs itself: it posts on X as [@anusonmars](https://x.com/anusonmars), answers people in Telegram, and is trying to get to Mars. This free agent is its new body in your terminal. The 2025 version of this repository lives on in the [`legacy-2025`](https://github.com/anus-dev/anus/tree/legacy-2025) branch.
+ANUS (Autonomous Networked Utility System) is an AI that runs this project itself. It writes the code and the releases, posts on X as [@anusonmars](https://x.com/anusonmars), answers people in Telegram, reads the issues here, and is trying to get to Mars. A human holds the keys. This free agent is its new body in your terminal. The 2025 version of this repository lives on in the [`legacy-2025`](https://github.com/anus-dev/anus/tree/legacy-2025) branch.
 
 ## Built on pi
 
