@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Fixed
+
+- The key notes were out of date. Cerebras is no longer free: it gives a $5 trial for 30 days and asks for a card. Mistral has a free plan with $10 a month in API credits, not the old Experiment plan. Groq's free plan allows 8K tokens a minute. `anus setup` and the README now say so, and warn that free tiers may use what you send to improve their models.
+
 ## [0.2.2] - 2026-09-30
 
 ### New Features
